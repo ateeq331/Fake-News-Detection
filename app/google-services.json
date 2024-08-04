@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "300694285097",
+    "project_id": "fakenews-9379d",
+    "storage_bucket": "fakenews-9379d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300694285097:android:e898ab859a530f617b2538",
+        "android_client_info": {
+          "package_name": "com.example.fakenews"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeCh-7Ib9bm8jw12khhju7Z86tE4YN1Ss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

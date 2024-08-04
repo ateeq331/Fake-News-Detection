@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/forgot"
+    android:background="#ffff">
+
+
+    <ImageView
+        android:id="@+id/ImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/top_background1"/>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Forgot your Password?"
+                android:textSize="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="#6672FF" />
+
+            <EditText
+                android:id="@+id/editTextEmail"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:hint="Email"
+                android:paddingLeft="10dp"
+                android:textColor="#6672FF"
+                android:textColorHint="#6672FF"
+                android:background="@drawable/edittext_background"
+                android:drawableStart="@drawable/emai"
+                android:inputType="textEmailAddress"
+                android:layout_marginBottom="20dp" />
+
+            <Button
+                android:id="@+id/buttonResetPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reset Password"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:paddingTop="8dp"
+                android:backgroundTint="#6672FF"
+                android:foregroundTint="@color/white"
+                android:paddingBottom="8dp"
+                android:layout_margin="8dp"
+                android:textAllCaps="false"
+                android:layout_marginBottom="15dp"
+                android:textSize="16sp"  />
+
+        </LinearLayout>
+
+</LinearLayout>

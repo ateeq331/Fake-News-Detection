@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FakeNews</string>
+    <string name="navigation_drawer_open" />
+    <string name="navigation_drawer_close" />
+    <string name="email">Email</string>
+    <string name="create_account">Create Account</string>
+    <string name="password">Password</string>
+    <string name="toggle_password_visibility">Toggle Password Visibility</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account_log_in">Already have an account? Log in</string>
+    <string name="todo">TODO</string>
+    <string name="enter_news_in_urdu">Enter news in Urdu</string>
+    <string name="predict">Predict</string>
+    <string name="analyzing">Analyzing</string>
+    <string name="hint">یہاں پر خبر لکھیں</string>
+
+
+</resources>
